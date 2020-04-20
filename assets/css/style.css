@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:100,200,300,400,500| Satisfy:100,200,300,400,500,600,700');
+
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+
+
+#hero-image  {
+    position: relative;
+    background: url("../images/option16.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+
+   
+    }
+
+    @keyframes hero-zoom {
+ from {
+   transform: scale(1)
+}
+to {
+   transform: scale(1.1)
+}
+
+
+}
+
+
+    
+
+
+
+
+
+
+
