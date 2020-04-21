@@ -10,7 +10,7 @@ header {
 
 #hero-image  {
     position: relative;
-    background: url("../images/option12.jpg");
+    background: url("../images/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +34,14 @@ to {
 h1 {
    text-align:  center;
    margin-top: 290px;
+   color: #000;
+   font-size: 50px;
+   letter-spacing: 5px;
+}
+
+.nav-item {
+    padding: 0 5px;
+    margin: 20px;
 }
 
 
