@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:100,200,300,400,500| Satisfy:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:100,200,300,400,500,600,700| Satisfy:100,200,300,400,500,600,700');
 
 header {
   position: absolute;
@@ -6,11 +6,15 @@ header {
   width: 100%;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 
 
 #hero-image  {
     position: relative;
-    background: url("../images/option31.jpg");
+    background: url("../images/option37.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,18 +35,57 @@ to {
 }
 }
 
-h1 {
+
+.name-heading {
    text-align:  center;
-   margin-top: 270px;
-   color: #e17f93;
-   font-size: 32px;
+   margin-top: 400px;
+   margin-right: 880px; 
+   color: pink;
+   font-size: 40px;
+   font-family: "PT Sans" , sans-serif;
+   font-weight: 500;
    letter-spacing: 5px;
+   text-shadow: 3px 3px 0px #000;
 }
 
-.nav-item {
-    padding: 0 5px;
-    margin: 20px;
+.career-heading {
+   text-align:  center;
+   margin-bottom: 300px;
+   margin-right: 880px; 
+   color: #fff;
+   font-size: 30px;
+   font-family: "Arial" , sans-serif;
+   font-weight: 300;
+   letter-spacing: 5px;
+   text-shadow: 2px 2px 0px #000;
+
 }
+
+/* Nav Bar */
+
+.navbar-brand {
+    color: #949492 !important;
+     
+}
+
+.navbar-nav .nav-item {
+    padding: 0 5px;
+    margin: 10px;
+    color: #fff;
+}
+
+.navbar li a {
+    color: #520238 !important;
+}
+
+.navbar li a:hover {
+    color: #000 !important ;
+    transform: scale(0.8);
+}
+
+
+
+
 
 
 
