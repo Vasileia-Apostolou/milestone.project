@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:100,200,300,400,500,600,700| Satisfy:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Montserrat:wght@300&family=Thasadith:wght@700&display=swap');
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+}
 
 header {
   position: absolute;
@@ -11,6 +15,8 @@ header {
 }
 
 
+
+/* Image */
 
 #hero-image  {
     position: relative;
@@ -35,17 +41,30 @@ to {
 }
 }
 
+#about-image {
+    position:relative;
+    background: url("../images/option6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 2;
+
+}
+
+
+
+
+/* Heading */
 
 .name-heading {
    text-align:  center;
-   margin-top: 400px;
+   margin-top: 300px;
    margin-right: 880px; 
-   color: pink;
-   font-size: 40px;
-   font-family: "PT Sans" , sans-serif;
-   font-weight: 500;
+   color: #f2bbdd;
+   font-size: 43px;
+   font-family: 'Akronim' , sans-serif;
    letter-spacing: 5px;
-   text-shadow: 3px 3px 0px #000;
+   text-shadow: 3px 3px 2px #000;
 }
 
 .career-heading {
@@ -53,18 +72,23 @@ to {
    margin-bottom: 300px;
    margin-right: 880px; 
    color: #fff;
-   font-size: 30px;
-   font-family: "Arial" , sans-serif;
+   font-size: 32px;
+   font-family: "Thasadith" , sans-serif;
    font-weight: 300;
    letter-spacing: 5px;
-   text-shadow: 2px 2px 0px #000;
+   text-shadow: 2px 2px 2px #000;
 
 }
+
+
+
 
 /* Nav Bar */
 
 .navbar-brand {
-    color: #949492 !important;
+    color:#7d0155 !important;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 17px;
      
 }
 
@@ -79,9 +103,21 @@ to {
 }
 
 .navbar li a:hover {
-    color: #000 !important ;
     transform: scale(0.8);
 }
+
+
+
+
+/* About Section */
+
+.about-me {
+  text-align: center;
+  padding: 200px;
+  margin-left: 600px;
+}
+
+
 
 
 
