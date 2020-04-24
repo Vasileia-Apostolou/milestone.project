@@ -20,7 +20,7 @@ header {
 
 #hero-image  {
     position: relative;
-    background: url("/milestone.project/images/option37.jpg");
+    background: url("/milestone.project/assets/images/option37.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@ to {
 
 .about-image {
     position:relative;
-    background: url("/milestone.project/images/option6.jpg");
+    background: url("/milestone.project/assets/images/option6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
