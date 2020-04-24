@@ -41,14 +41,22 @@ to {
 }
 }
 
-#about-image {
+.about-image {
     position:relative;
     background: url("../images/option6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    z-index: 2;
+}
 
+.my-image {
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    
+    border-style: solid;
+    border-color: #ffe0fb;
+    border-width: 5px;
 }
 
 
@@ -111,11 +119,20 @@ to {
 
 /* About Section */
 
-.about-me {
+.about-me-one {
   text-align: center;
-  padding: 200px;
-  margin-left: 600px;
+  padding-top: 190px;
+ 
+ 
 }
+
+.about-me-two {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
 
 
 
