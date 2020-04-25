@@ -133,11 +133,12 @@ to {
 /* About Section */
 
 .about-me-one {
-  text-align: center;
+  text-align: inherit;
   padding-top: 190px;
   padding-left: 15px;
   color: #520238;
   font-size: 20px;
+
   
   
  
@@ -145,13 +146,14 @@ to {
 }
 
 .about-me-two {
-    text-align: center;
+    text-align: inherit;
     padding-top: 50px;
     padding-left: 15px;
     color:#520238 ;
     font-size: 20px; 
-    
+   
 }
+
 
 
 
