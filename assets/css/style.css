@@ -20,12 +20,13 @@ header {
 
 #hero-image  {
     position: relative;
-    background: url("/milestone.project/assets/images/option37.jpg");
+    background: url("../images/option37.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     text-align: center;
+    background-attachment: fixed;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -43,21 +44,23 @@ to {
 
 .about-image {
     position:relative;
-    background: url("/milestone.project/assets/images/option6.jpg");
+    background: url("../images/option6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
-}
+  }
 
 .my-image {
-    width: 300px;
     max-width: 100%;
-    height: 400px;
-    margin-top: 100px;
-   
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
     border-style: solid;
     border-color: #ebb0c6;
-    border-width: 5px;
+    border-width: 2px;
+    
+
 
 }
 
@@ -67,20 +70,21 @@ to {
 /* Heading */
 
 .name-heading {
-   text-align:  center;
-   margin-top: 300px;
-   margin-right: 880px; 
+   text-align: center;
+   margin-top: 400px;
+   margin-right: 850px;
    color: #f2bbdd;
    font-size: 43px;
    font-family: 'Akronim' , sans-serif;
    letter-spacing: 5px;
    text-shadow: 3px 3px 2px #000;
+   
 }
 
 .career-heading {
-   text-align:  center;
+   text-align: center;
    margin-bottom: 300px;
-   margin-right: 880px; 
+   margin-right: 880px;
    color: #fff;
    font-size: 32px;
    font-family: "Thasadith" , sans-serif;
@@ -94,6 +98,12 @@ to {
 
 
 /* Nav Bar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 .navbar-brand {
     color:#7d0155 !important;
@@ -110,6 +120,7 @@ to {
 
 .navbar li a {
     color: #520238 !important;
+    
 }
 
 .navbar li a:hover {
@@ -124,7 +135,11 @@ to {
 .about-me-one {
   text-align: center;
   padding-top: 190px;
+  padding-left: 15px;
   color: #520238;
+  font-size: 20px;
+  
+  
  
  
 }
@@ -132,7 +147,9 @@ to {
 .about-me-two {
     text-align: center;
     padding-top: 50px;
-    color: #520238;
+    padding-left: 15px;
+    color:#520238 ;
+    font-size: 20px; 
     
 }
 
