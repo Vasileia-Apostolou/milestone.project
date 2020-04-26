@@ -42,6 +42,7 @@ to {
 }
 }
 
+
 .about-image {
     position:relative;
     background: url("../images/option6.jpg");
@@ -51,6 +52,7 @@ to {
     min-height: 100vh;
   }
 
+
 .my-image {
     max-width: 100%;
     margin-top: 80px;
@@ -59,10 +61,30 @@ to {
     border-style: solid;
     border-color: #ebb0c6;
     border-width: 2px;
-    
-
-
 }
+
+.portfolio-image {
+    position:relative;
+    background: url("../images/option43.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+
+
+.client1-image, .client2-image, .client3-image {
+  max-width: 100%;
+  width: 90%;
+  height: auto;
+  margin-left: 350px;
+  padding-right: 400px;
+ 
+  
+}
+
+
 
 
 
@@ -78,7 +100,6 @@ to {
    font-family: 'Akronim' , sans-serif;
    letter-spacing: 5px;
    text-shadow: 3px 3px 2px #000;
-   
 }
 
 .career-heading {
@@ -91,7 +112,15 @@ to {
    font-weight: 300;
    letter-spacing: 5px;
    text-shadow: 2px 2px 2px #000;
+}
 
+.about-heading {
+    text-align: center;
+    padding-top: 120px;
+    padding-right: 50px;
+    margin: 100;
+    color: #7d0155;
+    text-shadow: 1px 1px 2px #fff;
 }
 
 
@@ -103,6 +132,7 @@ to {
     position: fixed;
     top: 0;
     width: 100%;
+    text-shadow: 1px 0px 3px #fff;
 }
 
 .navbar-brand {
@@ -134,15 +164,10 @@ to {
 
 .about-me-one {
   text-align: inherit;
-  padding-top: 190px;
+  padding-top: 80px;
   padding-left: 15px;
   color: #520238;
   font-size: 20px;
-
-  
-  
- 
- 
 }
 
 .about-me-two {
@@ -151,7 +176,16 @@ to {
     padding-left: 15px;
     color:#520238 ;
     font-size: 20px; 
-   
+}
+
+@media (max-width: 900px) {
+.about-me-one {
+  padding-top: 20px;
+  padding-left: 13px;
+}
+.about-heading {
+    padding-top: 40px;
+    padding-right: 15px;
 }
 
 
